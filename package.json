@@ -1,17 +1,18 @@
 {
   "name": "sheriyans-mini-project-2",
   "version": "1.0.0",
+  "description": "Authentication based social post app using Node.js, Express, EJS and MongoDB",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sahil Kumar Jha",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
     "ejs": "^4.0.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
